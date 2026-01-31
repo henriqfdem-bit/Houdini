@@ -9,12 +9,10 @@ body {
 button {
   min-width: 220px;
   min-height: 64px;
-
   padding: 18px 32px;
   font-size: 1.4rem;
   border-radius: 14px;
 }
-
 
 @media (max-width: 600px) {
   button {
@@ -23,7 +21,6 @@ button {
     font-size: 1.6rem;
   }
 }
-
 
 .arena {
   width: 100%;
@@ -36,6 +33,7 @@ button {
   position: absolute;
   transition: left 0.3s ease, top 0.3s ease;
 }
+
 
 
 
