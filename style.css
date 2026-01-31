@@ -39,6 +39,11 @@ button {
   position: absolute;
   transition: left 0.3s ease, top 0.3s ease;
 }
+.botoes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
 
 
 
