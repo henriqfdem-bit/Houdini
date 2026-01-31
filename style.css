@@ -30,19 +30,11 @@ button {
   height: 100%;
   margin: 0 auto;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #noBtn {
   position: absolute;
   transition: left 0.3s ease, top 0.3s ease;
-}
-.botoes {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
 }
 
 
