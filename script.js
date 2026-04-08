@@ -167,3 +167,16 @@ function showNo() {
   noHidden = false;
   setState(STATES.PARADO);
 }
+
+document.getElementById("yes").addEventListener("click", () => {
+  fetch("https://docs.google.com/forms/d/e/1FAIpQLSdLhpF09_kRjROlJJac_Os-G3ugqzas0uQDIEKBBEVQiDCWRA/formResponse", {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: "entry.1621507755=sim"
+  });
+
+  alert("boa 😈");
+});
